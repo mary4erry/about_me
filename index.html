@@ -4,37 +4,45 @@
 	<meta charset="UTF-8">
 	<title>MY PORTFOLIO</title>
 	<style>
-		.links {
+		.projects {
 			display: flex;
 			flex-direction: column;
-
 		}
-		.links a {
+		.projects a {
 			font-size: 18px;
 			color: black;
-			text-transform: uppercase;
 			text-decoration: none;
 		}
-		.links a:hover {
+		.projects a:hover {
 			color: cornflowerblue;
 		}
-		.links p {
+		p {
 			padding: 0 25px;
 			margin: 0;
+		}
+		ul {
+			list-style-type: none;
 		}
 	</style>
 </head>
 <body>
-	<div class="links">
-		<a href="https://mary4erry.github.io/test-reactapp-table/">Contacts list (react)</a>
-		<a href="https://mary4erry.github.io/social-net/">Social network (React, Redux)</a>
-		<p>Email: free@samuraijs.com</p>
-		<p>Password: free</p>
-		<p>Верстка:</p>
-		<a href="https://mary4erry.github.io/Request-Design-test/">Stolovaya.ru</a>
-		<a href="https://mary4erry.github.io/CarePoint">CarePoint</a>
-		<a href="https://mary4erry.github.io/site_video">Video</a>
-		<a href="https://mary4erry.github.io/Concomitant">CONCOMITANT</a>
+	<div class="projects">
+		<h3>Проекты</h3>
+		<ul class ='projects-main'>
+			<li><a href="https://mary4erry.github.io/test-reactapp-table/">Contacts list (react)</a></li>
+			<li><a href="https://mary4erry.github.io/social-net/">Social network (React, Redux)</a><p>Email: free@samuraijs.com</p>
+			<p>Password: free</p></li>	
+		</ul>
+		<div class ='projects-html'>
+			<h3>Задачи по верстке, выполненные в процессе обучения</h3>
+			<ul>
+				<li><a href="https://mary4erry.github.io/HTML5-CSS3/interior_shop/">Уровень 1. Мебельный мазазин (основы верстки и работы с макетом)</a></li>
+				<li><a href="https://mary4erry.github.io/HTML5-CSS3/level_2_medical-clinic/">Уровень 2. Лендинг медклиники (верстка на grid'ах, адаптивность, анимация)</a></li>
+				<li><a href="https://mary4erry.github.io/HTML5-CSS3/level_2_product-video/">Уровень 2. Страница продукта (верстка на float'ах, добавление видео)</a></li>
+				<li><a href="https://mary4erry.github.io/HTML5-CSS3/level_2_company/">Уровень 2. Страница компании (верстка на flexbox'ах, адаптивность, использование препроцессора SASS и Bootstrap)</a></li>
+			</ul>
+		</div>
+		
 	</div>
 	
 </body>
